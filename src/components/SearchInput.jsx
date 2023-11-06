@@ -19,7 +19,7 @@ const SearchInput = () => {
     return (
         <div
             id="searchBox"
-            className="h-[46px] w-full md:w-[584px] flex items-center gap-3 px-4 border border-[#dfe1e5] rounded-3xl hover:bg-white hover:shadow-c hover:border-0 focus-within:shadow-c focus-within:border-0"
+            className="h-[46px] w-full md:w-[584px] flex items-center gap-3 px-4 border border-[#3b5b9b] rounded-3xl hover:bg-white hover:shadow-c hover:border-0 focus-within:shadow-c focus-within:border-0"
         >
             <AiOutlineSearch size={18} color="#9aa0a6" />
             <input
@@ -28,7 +28,8 @@ const SearchInput = () => {
                 onKeyUp={searchQueryHandler}
                 value={searchQuery}
                 autoFocus
-                className="grow outline-0 text-black/[0.87]"
+                
+                className="grow outline-0 text-black/[0.87] "
             />
             <div className="flex items-center gap-3">
                 {searchQuery && (

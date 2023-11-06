@@ -40,7 +40,7 @@ const SearchResultHeader = () => {
                     <SearchInput from="searchResult" />
                 </div>
                 <div className="hidden md:block">
-                    <ProfileIcon />
+                   
                 </div>
             </div>
 
